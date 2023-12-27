@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.top {
+  background: rgb(215, 20, 20);
+  line-height: 50px;
+}
+.top_nav {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  .right {
+    ul {
+      list-style: none;
+      text-decoration: none;
+      li {
+        display: inline;
+        a {
+          text-decoration: none;
+          color: #fff;
+          padding: 0 10px;
+          font-size: 22px;
+          & :hover {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//navigation styling starts form here
+
+.nav {
+  background: rgb(6, 6, 53);
+  line-height: 50px;
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+  .middle {
+    ul {
+      list-style: none;
+      text-decoration: none;
+      li {
+        display: inline;
+        a {
+          color: #fff;
+          text-decoration: none;
+          padding: 0 20px;
+          font-size: medium;
+        }
+      }
+    }
+  }
+  .right {
+    button {
+      margin-top: 5px;
+      background: yellow;
+      padding: 0 15px;
+      border: none;
+      border-radius: 12px;
+      color: red;
+      cursor: pointer;
+      & :hover {
+        border: 2px solid red;
+      }
+    }
+  }
+}
+
+//stling of slider
+.carousel-image {
+  max-height: 560px;
+  object-fit: cover;
+}
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+//styling about
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background: #e4dfdf;
+  height: 370px;
+}
+
+.team-image {
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  max-width: 600px;
+  text-align: justify;
+  color: #792929;
+}
+
+//services styling
+
+
+/* .services-container {
+    max-width: 1200px;
+   
+    
+  }
+  
+  .services-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    margin: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card img {
+    max-height: 200px;
+    object-fit: cover;
+  } */
+
+
+  .services{
+    width: 100%;
+    height: 70vh;
+   
+    h5{
+        text-align: center;
+        font-weight: bold;
+        margin: 20px;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        .card{
+            margin: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            img{
+                max-height: 200px;
+                object-fit: cover;
+            }
+        }
+    }
+    
+  }
+
+
+  //contact styling
+ .contact{
+    border-top: 1px solid #ccc;
+   h2{
+    text-align: center;
+    margin:20px;
+   }
+    
+ }
+  
+  .contact-card,
+  .map-card {
+    margin-bottom: 20px;
+  }
+  
+
+  //footer
+
+  .footer-container {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+
+  //styling about us
+  .about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-us-content {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    justify-content: center;
+  }
+
+
+  //conatct page
+
+.contact-page-container {
+    margin: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  //news
+
+  .news{
+    margin-top: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+ 
+  
+  
